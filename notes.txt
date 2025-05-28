@@ -1,0 +1,7 @@
+let = creates a variable
+consolle.log(); = places anything inside the bracket in console 
+let result = calculaltion + 2; makes the calculation + 2 into result
+
+variable name rules :
+1. no special words, example let (let = let)
+2. can't start with a number (let 2name = 3;)
