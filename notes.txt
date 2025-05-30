@@ -5,3 +5,41 @@ let result = calculaltion + 2; makes the calculation + 2 into result
 variable name rules :
 1. no special words, example let (let = let)
 2. can't start with a number (let 2name = 3;)
+3. can't use special characters except : $_
+
+Variable reassignment shortcuts:
+1. += 2 variable = variable + 2
+2. -= 2 variable = variable - 2
+3. *= 2 variable = variable * w
+4. /= 2 variable = variable / 2
+5. ++ varibale = variable + 1
+6. -- variable = variable - 1
+
+best practices for variables :
+1. camelCase : cartQuantity : JS Standard
+2. PascalCase : CartQuantity
+3. kebab-case : cart-quantity : doesn't work in JS, use in HTML and CSS aswell as file names.
+4. snake_case : cart_quantity : used in other languages but not JS
+
+when naming, try to pick a name that's not too short or too long.
+
+3 Ways to create variables in JS :
+1. Let variable2 = 3; 
+2. Const variable2 = 3; (Can't change the value, it makes the code safer and more constant) use const by default
+3. Var variable2 = 3; (can be changed, however there are issues, and that is why we don't use in JS)
+
+console.log(typeof variable2); : will tell the type of variable 2 (number)
+
+Comparison Operators
+> Greater than
+< Less than
+>= greather than or equal to
+<= less than or equal to
+=== equal to
+!== not equal to
+
+== equal to but tries to get it into the same type (converts it into the same type) example : (5=='5.00') int is not the same as string
+
+Falsy and Thruty
+false : 0 '' NaN undefined null
+True : anything other than the above
