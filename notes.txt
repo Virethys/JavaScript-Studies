@@ -43,3 +43,47 @@ Comparison Operators
 Falsy and Thruty
 false : 0 '' NaN undefined null
 True : anything other than the above
+
+Examples:
+cartQuantity=5
+cartQuantity > 0 => True
+cartQuantity => truthy
+
+instead of :
+if(cartQuantity > 0)
+use
+if(cartQuantity)
+
+Ternary Operator
+
+example:
+true ? 'truthy' : 'falsy' 
+
+shortcut to :
+if (true){
+    'truthy'
+} else {
+    'falsy'
+}
+
+ternary operator can be saved in an variable example
+const result = true ? 'truthy' : 'falsy';
+console.log(result)
+
+Guard operator 
+
+false && console.log('hello');
+shorrtcut to: 
+if(condition){
+    console.log('hello');
+}
+
+or
+
+5 && console.log('hello');
+
+Guard operator can be saved in a variable example:
+const message = false && hello;
+
+steps to create a JS data:
+- make an algorythm : Figure out what the computer should be doing first, example: when we click a button, computer selects a move, compare the move to get result, display the result
